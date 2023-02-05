@@ -15,12 +15,17 @@ body{
   border-radius: 4.8rem;
   font-size: 1.6rem;
   width: 35.6rem;
-  padding: 5.4rem 3.2rem 2.6rem 3.6rem;                           ;
+  padding: 5.4rem 3.2rem 2.6rem 3.6rem;                           
   border: 1px solid red;
   background: #2d2a37;
-  color: #ebebeb
+  color: #ebebeb;
+  
 }
 .visor{
   border: 1px solid red;
 
+}
+.teclas{
+  display: flex;
+  gap: 25px;
 }
