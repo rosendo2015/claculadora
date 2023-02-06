@@ -1,11 +1,11 @@
 import "./styles.js"
 import { Container } from "./styles"
-import { Body } from "../../components/Body/index.jsx"
 
-export function Calculadora() {
+export function Teclado() {
   return (
     <Container>
-      <Body />
+
+     
     </Container>
   )
 }
