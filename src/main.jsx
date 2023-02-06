@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {Calculadora} from './pages/Calculadora'
-
+import { Calculadora } from './pages/Calculadora'
+import { ThemeProvider } from 'styled-components'
+import theme from './styles/theme'
+import GlobalStyles from './styles/global'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Calculadora />
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Calculadora />
+    </ThemeProvider>
   </React.StrictMode>,
 )
