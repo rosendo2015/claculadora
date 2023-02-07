@@ -17,10 +17,10 @@ export function Teclado() {
       <Tecla value={"-"}></Tecla>
       <Tecla value={"="}></Tecla>
       <Tecla value={'+'}></Tecla>
-      <Tecla value={6}></Tecla>
-      <Tecla value={6}></Tecla>
-      <Tecla value={6}></Tecla>
-      <Tecla value={6}></Tecla>
+      <Tecla value={'x'}></Tecla>
+      <Tecla value={'x'}></Tecla>
+      <Tecla value={'x'}></Tecla>
+      <Tecla value={'x'}></Tecla>
       
     </Container>
   )
