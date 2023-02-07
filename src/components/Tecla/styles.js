@@ -4,17 +4,16 @@ export const Container = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px solid red; 
+border: .5px solid red; 
 background: ${({theme}) => theme.COLORS.BACKGROUND_900};
-width: 50px;
-height: 50px;
-margin-top: 26px;
+width: 64px;
+height: 64px;
 border-radius: 50%;
 
 button{
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 26px;
+  font-size: 24px;
 }
 `
