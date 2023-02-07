@@ -1,13 +1,20 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-padding: 0 20px;
 display: flex;
-gap: 6px;
+align-items: center;
+justify-content: center;
 border: 1px solid red; 
 background: ${({theme}) => theme.COLORS.BACKGROUND_900};
-width: 292px;
-height: 368px;
+width: 50px;
+height: 50px;
 margin-top: 26px;
-flex-wrap: wrap;
+border-radius: 50%;
+
+button{
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+}
 `
