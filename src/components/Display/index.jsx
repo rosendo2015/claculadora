@@ -7,7 +7,7 @@ export function Display() {
     <input id="calc" type="text" placeholder="1 + 1"/> 
     <div>
     <TbEqual />
-    <input id="result" type="text" value={0}/> 
+    <input id="result" type="text" value={2}/> 
     </div>
     </Container>
   )
