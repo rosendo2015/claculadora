@@ -1,12 +1,12 @@
 import "./styles.js"
 import { Container } from "./styles"
 
-export function Tecla({icon : Icon, value, ...rest}) {
+
+export function TeclaQua({icon: Icon, ...rest}) {
   return (
     <Container>
       <button>
         {Icon && <Icon size={28}/>}
-        {value}
       </button>     
     </Container>
   )

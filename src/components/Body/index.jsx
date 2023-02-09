@@ -1,12 +1,12 @@
 import "./styles.js"
 import { Container } from "./styles"
-import { Visor } from "../Visor"
+import { Display } from "../Display"
 import { Teclado } from "../Teclado"
 
 export function Body() {
   return (
     <Container>
-      <Visor />
+      <Display />
       <Teclado />
     </Container>
   )

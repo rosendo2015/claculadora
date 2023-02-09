@@ -7,8 +7,11 @@ export default createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
 }
+body *{
+  font-family: 'Rubik', sans-serif;
+}
 body{
-  background: ${({theme}) => theme.COLORS.BACKGROUND_400};
+  background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
   color: ${({theme}) => theme.COLORS.WHITE};
   -webkit-font-smoothing: antialiased;
 }
