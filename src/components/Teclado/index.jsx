@@ -5,7 +5,7 @@ import { TeclaQua } from "../TeclaQua/index.jsx"
 import { TeclaSec } from "../TeclaSec/index.jsx"
 import { TeclaTer } from "../TeclaTer/index.jsx"
 import { TbEqual, TbPlus, TbMinus, TbX, TbDivide, TbPercentage } from "react-icons/tb"
-import imgPlusMinus from '../../assets/plusminus.png'
+
 export function Teclado() {
   return (
     <Container>   
